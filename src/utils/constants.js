@@ -1,7 +1,9 @@
 // This line should be there as shows
 import React, { Component }  from 'react';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import AnimationIcon from '@mui/icons-material/Animation';
 import HomeIcon from '@mui/icons-material/Home';
+import AppleIcon from '@mui/icons-material/Apple';
 import CodeIcon from '@mui/icons-material/Code';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
@@ -18,10 +20,10 @@ export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
+  { name: 'Crunchyroll Collection', icon: <AnimationIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
+  { name: 'Apple', icon: <AppleIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
