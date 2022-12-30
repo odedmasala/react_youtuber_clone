@@ -1,75 +1,52 @@
 
-# youtuber_clone app.
+# youtuber_clone
 
+Welcome to the youtuber_clone app, a YouTube clone built with React, RapidAPI, and Material-UI.
 
+## Screenshot
 ![צילום מסך 2022-10-03 203442](https://user-images.githubusercontent.com/105584185/193642176-49c5f4ac-e699-4844-970e-961dbbfa25c2.png)
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+This app is a clone of the popular video-sharing platform YouTube. It allows users to browse and watch videos, as well as search for specific videos using keywords. The app is built using the React library for the frontend and makes use of the RapidAPI service for the backend, including integration with the YouTube API. The app uses the Material-UI library for the user interface.
 
-### `npm start`
+## Notable Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: The app is built using the React library for the frontend, providing efficient and interactive user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- RapidAPI: The app uses the RapidAPI service for the backend, including integration with the YouTube API for retrieving video data.
 
-### `npm test`
+- Material-UI: The app uses the Material-UI library for the user interface, providing a modern and consistent design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started with the youtuber_clone app, you will need to have the following prerequisites installed on your machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You will also need to sign up for a RapidAPI account and obtain an API key for the YouTube API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once you have these prerequisites installed and an API key obtained, you can follow the steps below to set up the app:
 
-### `npm run eject`
+1. Clone the repository to your local machine using `git clone https://github.com/odedmasala/react_youtuber_clone.git`.
+2. Navigate to the root directory of the project and install the dependencies using `npm install` or `yarn install`.
+3. Create a file named `.env` in the root directory of the project and set the value of the `REACT_APP_YOUTUBE_API_KEY` environment variable to your RapidAPI API key.
+4. Start the development server using `npm start` or `yarn start`.
+5. The app should now be running on `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Building for Production
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To build the app for production, run the following command:
+`npm run build`
+This will create a production-ready build of the app in the `build` directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you are interested in contributing to the youtuber_clone app, please follow these guidelines:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Fork the repository and create a new branch for your changes.
+- Make your changes and commit them to your branch.
+- Open a pull request and provide a clear and concise description of your changes.
